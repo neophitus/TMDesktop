@@ -1,0 +1,161 @@
+html, body {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+body {
+	margin:0;
+	font-family:Verdana;
+	background:#2A58A3 url('../img/wallpaper.jpg');
+}
+
+.MainLogo {
+	width:400px;
+	height:147px;
+	background:url('../img/logo_psdb_mg.png');
+	position:absolute;
+	right:10px;
+}
+
+.Login {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+.Login .login-content {
+	position:absolute;
+	width:359px;
+	height:402px;
+	left:50%;
+	top:50%;
+	margin:-201px 0px 0px -196px;
+}
+
+.Login .login-content .login-logo {
+	width:206px;
+	height:136px;
+	background:url('../img/sgi_logo.png') no-repeat;
+	margin-left:20px;
+}
+
+.Login .login-content .login-fields {
+	width:359px;
+	height:270px;
+	background:url('../img/login_fields_bg.png') no-repeat;
+	position:relative;
+}
+
+.Login .login-content .login-fields .login-auth {
+	width:216px;
+	height:64px;
+	background:url('../img/auth.png') no-repeat;
+	position:absolute;
+	top:30px;
+	left:30px;
+}
+
+.Login .login-content .login-fields .login-inputs {
+	position:absolute;
+	top:105px;
+	left:45px;
+}
+
+.Login .login-content .login-fields .login-field {
+	margin-bottom:10px;
+}
+
+.Login .login-content .login-fields .login-field label {
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.Login .login-content .login-fields .login-field label.error {
+	font-size:11px;
+	font-weight:normal;
+	color:white;
+}
+
+.Login .login-content .login-fields .login-field input {
+	background:transparent url('../img/field_bg.png');
+	border:0px none;
+	width:207px;
+	height:30px;
+	padding:0px 3px 0px 3px;
+	margin-top:3px;
+	font-family:Verdana;
+	padding:6px 3px 0px 3px\9;
+	height:24px\9;
+}
+
+.Login .login-content .login-fields .login-field input.error {
+	background:transparent url('../img/field_bg_error.png');
+}
+
+.Login .login-content .login-fields .login-button-enter {
+	width:40px;
+	height:54px;
+	cursor:pointer;
+	position:absolute !important;
+	right: 40px;
+	bottom:80px;
+}
+
+.Login .login-content .login-fields .login-button-enter .backgroundimage {
+	width:40px;
+	height:162px;
+	background:url('../img/ActionButtonEnter.png') no-repeat;
+}
+
+
+.Login .login-content .login-fields .login-loading,
+.Login .login-content .login-fields .login-error {
+	width:280px;
+	position:absolute;
+	top:100px;
+	left:40px;
+}
+
+.Login .login-content .login-fields .login-error .login-error-text {
+	margin:20px auto 0px auto;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.Login .login-content .login-fields .login-error .login-error-back {
+	height:19px;
+	width:62px;
+	margin:15px auto 0px auto;
+	cursor:pointer;
+}
+
+.Login .login-content .login-fields .login-error .login-error-back .backgroundimage {
+	height:76px;
+	width:62px;
+    background:url('../img/ActionButtonBack.png') no-repeat;
+}
+
+
+.Login .login-content .login-fields .login-loading .login-loading-text {
+	margin:20px auto 0px auto;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.Login .login-content .login-fields .login-loading .login-loading-image {
+	width:220px;
+	height:19px;
+	background:url('../img/ajax-loader.gif') no-repeat;
+	margin:5px auto 0px auto;
+}
+
+
+

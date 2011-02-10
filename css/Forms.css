@@ -1,0 +1,197 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin:0;
+}
+
+.Fields {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 2px 0px 2px;
+	height: 15px;
+	margin-top:2px;
+	border: 1px solid #CCC;
+}
+
+.Fields.error {
+	border: 1px dotted red;
+}
+
+select {
+	border: 1px solid #CCC;
+}
+
+textarea {
+	height:120px !important; 
+	width:350px !important;
+	border: 1px solid #CCC !important;
+}
+
+select.error {
+	border: 1px dotted red;
+}
+
+.FieldBox {
+	padding-bottom:3px;
+}
+
+label {
+
+}
+
+label .subLabel {
+
+}
+
+label.error {
+	background: url('../img/unchecked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+	color:red;
+}
+
+label.valid {
+	background: url('../img/checked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+}
+
+
+.Forms {
+
+}
+
+.Forms #UserDataTabs {
+
+}
+
+.Forms .Block {
+	height:400px;
+}
+
+.Forms .Block {
+	height:310px;
+}
+
+.Forms .Block .Title {
+	height: 12px;
+	background-color:#000;
+}
+
+.Forms .Block .HSeparator {
+	height: 1px;
+	margin: 5px 0px 5px 0px;
+	background-color:#000;
+}
+
+.Forms .Separator {
+	float:left;
+	height: 300px;
+	width:1px;
+	background-color:#000;
+	margin:0px 5px 0px 5px;
+}
+
+
+.Forms .buttons-bar {
+	height:32px;
+	padding:4px; 
+}
+
+
+.Forms .buttons-bar .ActionButtonBack,
+.Forms .buttons-bar .ActionButtonForward,
+.Forms .buttons-bar .ActionButtonFinish{
+	width:105px;
+	height:32px;
+	float:right;
+	margin-left:5px;
+	cursor:pointer;
+}
+
+.Forms .buttons-bar .ActionButtonSend {
+	width:105px;
+	height:32px;
+	float:right;
+	margin-left:5px;
+	cursor:pointer;
+	margin-top:120px;
+}
+
+.Forms .buttons-bar .ActionButtonBack .backgroundimage,
+.Forms .buttons-bar .ActionButtonForward .backgroundimage,
+.Forms .buttons-bar .ActionButtonFinish .backgroundimage,
+.Forms .buttons-bar .ActionButtonSend .backgroundimage {
+	width:105px;
+	height:128px;
+}
+
+.Forms .buttons-bar .ActionButtonBack {
+
+}
+
+.Forms .buttons-bar .ActionButtonBack .backgroundimage {
+	background:url('../img/ActionButtonBack1.png') no-repeat;
+}
+
+.Forms .buttons-bar .ActionButtonForward {
+
+}
+
+.Forms .buttons-bar .ActionButtonForward .backgroundimage {
+	background:url('../img/ActionButtonForward.png') no-repeat;
+}
+
+.Forms .buttons-bar .ActionButtonFinish {
+
+}
+
+.Forms .buttons-bar .ActionButtonFinish .backgroundimage {
+	background:url('../img/ActionButtonFinish.png') no-repeat;
+}
+
+.Forms .buttons-bar .ActionButtonSend .backgroundimage {
+	margin-top:120px;
+	background:url('../img/ActionButtonSend.png') no-repeat;
+}
+
+.Forms .tabs-top a {
+	outline:0;
+}
+
+.Forms #home-addressblock {
+	float:left;
+}
+
+.Forms #commercial-addressblock {
+	float:left;
+	margin-left:30px;
+}
+
+.Forms #user-accessdatablock {
+	float:left;
+}
+
+.Forms #modules-accessdatablock {
+	float:left;
+	margin-left:130px;
+}
+
+.Forms #permission2-accessdatablock {
+	float:left;
+	margin-left:50px;
+}
+
+.Forms #home-addressblock .addressblock-title,
+.Forms #commercial-addressblock .addressblock-title,
+.Forms #user-accessdatablock .accessdatablock-title,
+.Forms #modules-accessdatablock .accessdatablock-title {
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.Forms #user-accessdatablock .FieldBox,
+.Forms #modules-accessdatablock .FieldBox,
+.Forms #permission2-accessdatablock .FieldBox {
+	margin-left:20px;
+}
